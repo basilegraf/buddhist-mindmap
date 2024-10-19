@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Buddhism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1729341763577" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
+<hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -162,7 +162,7 @@
 </node>
 <node TEXT="Three Characteristics" POSITION="right" ID="ID_688640389" CREATED="1729336197662" MODIFIED="1729336240078">
 <edge COLOR="#00ff00"/>
-<node TEXT="Dukka" ID="ID_502616611" CREATED="1729342604561" MODIFIED="1729342647556"/>
+<node TEXT="Dukkha" ID="ID_502616611" CREATED="1729342604561" MODIFIED="1729356972352"/>
 <node TEXT="Anicca" ID="ID_641021274" CREATED="1729342620129" MODIFIED="1729342626906"/>
 <node TEXT="Anata" ID="ID_25108434" CREATED="1729342627633" MODIFIED="1729342640964"/>
 </node>
@@ -221,7 +221,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Dependent origination (Paticca Samuppada)" POSITION="right" ID="ID_1962756449" CREATED="1729342757167" MODIFIED="1729356384004">
+<node TEXT="Dependent origination (Paticca Samuppada)" POSITION="right" ID="ID_1962756449" CREATED="1729342757167" MODIFIED="1729363236710">
 <edge COLOR="#7c007c"/>
 <richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
@@ -247,7 +247,7 @@
       </li>
     </ul>
     <p>
-      Beginning of the list
+      Beginning of the list:
     </p>
     <ul>
       <li>
@@ -326,8 +326,74 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="37 requisites" POSITION="right" ID="ID_1167558728" CREATED="1729354857234" MODIFIED="1729354883150">
+<node TEXT="37 requisites" POSITION="right" ID="ID_1167558728" CREATED="1729354857234" MODIFIED="1729360555139">
 <edge COLOR="#007c7c"/>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The 37 requisite of enlightenment provide (another) comprehensive overview of the teachings.
+    </p>
+    <p>
+      https://www.youtube.com/watch?v=zlCrpgpoBsM&amp;list=PLCXN1GlAupG3SlHsSX0oK1AWCJx5Q9PzB&amp;index=13
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="8 Eightfold path" ID="ID_1501096868" CREATED="1729359243443" MODIFIED="1729359259093">
+<node TEXT="Right view" ID="ID_1973865921" CREATED="1729359414509" MODIFIED="1729359419429"/>
+<node TEXT="Right intention" ID="ID_1524875262" CREATED="1729359419869" MODIFIED="1729359427634"/>
+<node TEXT="Right Speech" ID="ID_513817537" CREATED="1729359428461" MODIFIED="1729359435944"/>
+<node TEXT="Right action" ID="ID_48771338" CREATED="1729359436699" MODIFIED="1729359449705"/>
+<node TEXT="Right livelihood" ID="ID_1817813660" CREATED="1729359449928" MODIFIED="1729359471793"/>
+<node TEXT="Right effort" ID="ID_1407418994" CREATED="1729359472298" MODIFIED="1729359481693"/>
+<node TEXT="Right mindfulness" ID="ID_422731083" CREATED="1729359488410" MODIFIED="1729359503030"/>
+<node TEXT="Right concentration" ID="ID_321289428" CREATED="1729359518770" MODIFIED="1729359525923"/>
+</node>
+<node TEXT="7 Seven factors of enlightenment" ID="ID_1882023081" CREATED="1729359260082" MODIFIED="1729359548912">
+<node TEXT="Mindfullness" ID="ID_173888286" CREATED="1729359550085" MODIFIED="1729359555532"/>
+<node TEXT="Investigation of Dhamma" ID="ID_1872591572" CREATED="1729359557286" MODIFIED="1729359566943"/>
+<node TEXT="Energy (effort, viriya)" ID="ID_764284720" CREATED="1729359567398" MODIFIED="1729361973029"/>
+<node TEXT="Joy" ID="ID_1168714471" CREATED="1729359575589" MODIFIED="1729359578659"/>
+<node TEXT="Tranquility" ID="ID_856130001" CREATED="1729359579092" MODIFIED="1729359584795"/>
+<node TEXT="Concentration" ID="ID_1961899289" CREATED="1729359584991" MODIFIED="1729359590462"/>
+<node TEXT="Equanimity" ID="ID_1041098205" CREATED="1729359590691" MODIFIED="1729359597674"/>
+</node>
+<node TEXT="5 Five faculties" ID="ID_1040024131" CREATED="1729359268226" MODIFIED="1729359275810">
+<node TEXT="Faith" ID="ID_948091088" CREATED="1729359616147" MODIFIED="1729359622726"/>
+<node TEXT="Energy" ID="ID_1923740841" CREATED="1729359623185" MODIFIED="1729359626878"/>
+<node TEXT="Minfulness" ID="ID_801392727" CREATED="1729359627313" MODIFIED="1729359635323"/>
+<node TEXT="Concentration" ID="ID_270118995" CREATED="1729359635858" MODIFIED="1729359641676"/>
+<node TEXT="Wisdom" ID="ID_970791783" CREATED="1729359641907" MODIFIED="1729359646166"/>
+</node>
+<node TEXT="5 Five powers" ID="ID_112667607" CREATED="1729359276433" MODIFIED="1729359283406">
+<node TEXT="Faith" ID="ID_1245145005" CREATED="1729359658384" MODIFIED="1729359670521"/>
+<node TEXT="Energy" ID="ID_408566009" CREATED="1729359670703" MODIFIED="1729359673806"/>
+<node TEXT="Mindfulness" ID="ID_425968320" CREATED="1729359674002" MODIFIED="1729359678448"/>
+<node TEXT="Concentration" ID="ID_1479632932" CREATED="1729359678651" MODIFIED="1729359684277"/>
+<node TEXT="Wisdom" ID="ID_554632884" CREATED="1729359684511" MODIFIED="1729359688249"/>
+</node>
+<node TEXT="4 Four right efforts" ID="ID_951692403" CREATED="1729359283826" MODIFIED="1729359301710">
+<node TEXT="Preventing unwholesome states not yet arisen" ID="ID_481428416" CREATED="1729359695837" MODIFIED="1729359724595"/>
+<node TEXT="Removing unwholesome states that have arisen" ID="ID_758173968" CREATED="1729359753647" MODIFIED="1729359782708"/>
+<node TEXT="Developing wholesome states not yet arisen" ID="ID_273317950" CREATED="1729359783245" MODIFIED="1729359801023"/>
+<node TEXT="Maintaining + deepening arisen wholesome states" ID="ID_753468281" CREATED="1729359801211" MODIFIED="1729359827177"/>
+</node>
+<node TEXT="4 Four foundations of mindfulness" ID="ID_675182459" CREATED="1729359303089" MODIFIED="1729359322173">
+<node TEXT="Mindfullness of the body" ID="ID_1663473208" CREATED="1729359848308" MODIFIED="1729359860565"/>
+<node TEXT="Mindfullness of feelings" ID="ID_522337997" CREATED="1729359861755" MODIFIED="1729359889652"/>
+<node TEXT="Mindfullness of the mind" ID="ID_1209202926" CREATED="1729359871754" MODIFIED="1729359885473"/>
+<node TEXT="Mindfullness of Dhamma categories" ID="ID_608366125" CREATED="1729359894138" MODIFIED="1729359913266"/>
+</node>
+<node TEXT="4 Four bases of psychic power (iddipadas)" ID="ID_1097049479" CREATED="1729359322557" MODIFIED="1729359941889">
+<node TEXT="Wholesome desire" ID="ID_1253253100" CREATED="1729359925767" MODIFIED="1729359954944"/>
+<node TEXT="Energy" ID="ID_1135275398" CREATED="1729359942737" MODIFIED="1729359961489"/>
+<node TEXT="Mind" ID="ID_954375905" CREATED="1729359961799" MODIFIED="1729359965557"/>
+<node TEXT="Investigation" ID="ID_495359103" CREATED="1729359966069" MODIFIED="1729359979545"/>
+</node>
 </node>
 </node>
 </map>
