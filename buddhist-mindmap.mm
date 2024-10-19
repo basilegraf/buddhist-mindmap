@@ -3,7 +3,7 @@
 <node TEXT="Buddhism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1729341763577" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -68,7 +68,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Four Noble Thruths" POSITION="right" ID="ID_683459160" CREATED="1729336173896" MODIFIED="1729336220067">
 <edge COLOR="#ff0000"/>
 <node TEXT="Suffering" ID="ID_620406646" CREATED="1729336266000" MODIFIED="1729338760497"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
@@ -81,8 +81,7 @@
       Suffering is defined as the clinging to any of the five aggregates.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="" ID="ID_1121986458" CREATED="1729336958801" MODIFIED="1729336958801">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -107,8 +106,7 @@
       Describes how any form of craving causes or leads to further becoming, in turn leading to more suffering. There are three types of craving. All lead to further becoming, including craving for non-becoming.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Craving for sensuality" ID="ID_600786780" CREATED="1729338985071" MODIFIED="1729339035084"/>
 <node TEXT="Craving for becoming" ID="ID_255927018" CREATED="1729338995966" MODIFIED="1729339078781"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
 <html>
@@ -120,16 +118,47 @@
       Becoming: the assumption of an identity in a particular world of experience.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="craving for non-becoming" ID="ID_21338972" CREATED="1729339006718" MODIFIED="1729339016469"/>
 </node>
 <node TEXT="Existence of a Path" ID="ID_41577358" CREATED="1729336284929" MODIFIED="1729336691471"/>
 <node TEXT="Practice of the Path" ID="ID_1024635940" CREATED="1729336691971" MODIFIED="1729336704957"/>
 </node>
-<node TEXT="Noble Eightfold Path" POSITION="right" ID="ID_1912295117" CREATED="1729336197518" MODIFIED="1729336232375">
+<node TEXT="Noble Eightfold Path" POSITION="right" ID="ID_1912295117" CREATED="1729336197518" MODIFIED="1729356670879">
 <edge COLOR="#0000ff"/>
+<node TEXT="" ID="ID_1193861535" CREATED="1729356167836" MODIFIED="1729356167836">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Right speech (Samma vaca)" ID="ID_1619892448" CREATED="1729355457868" MODIFIED="1729355816040"/>
+<node TEXT="Right conduct (Samma kammanta)" ID="ID_1802245098" CREATED="1729355477659" MODIFIED="1729355930015"/>
+<node TEXT="Right livelihood (Samma ajiva)" ID="ID_993800260" CREATED="1729355485588" MODIFIED="1729355902749"/>
+<node TEXT="" ID="ID_1181554063" CREATED="1729356167830" MODIFIED="1729356680410">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Ethical conduct (Sila)" ID="ID_1114175719" CREATED="1729356167839" MODIFIED="1729356680408"/>
+</node>
+<node TEXT="" ID="ID_181409118" CREATED="1729356200404" MODIFIED="1729356200404">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Right effort (Samma vayama)" ID="ID_1518376684" CREATED="1729355496931" MODIFIED="1729356035633"/>
+<node TEXT="Right mindfulness (Samma sati)" ID="ID_1338475369" CREATED="1729355525913" MODIFIED="1729356670875"/>
+<node TEXT="Right concentration (Samma samadhi)" ID="ID_993331429" CREATED="1729355537462" MODIFIED="1729355789055"/>
+<node TEXT="" ID="ID_1086655907" CREATED="1729356200401" MODIFIED="1729356200404">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Concentration (Samadhi)" ID="ID_916480008" CREATED="1729356200406" MODIFIED="1729356232269"/>
+</node>
+<node TEXT="" ID="ID_614923092" CREATED="1729356239553" MODIFIED="1729356239553">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Right view / understanding (Samma ditthi)" ID="ID_851208844" CREATED="1729355355985" MODIFIED="1729356153147"/>
+<node TEXT="Right resolve / thinking (Samma sankappa)" ID="ID_724795007" CREATED="1729355425821" MODIFIED="1729356157164"/>
+<node TEXT="" ID="ID_1291058412" CREATED="1729356239550" MODIFIED="1729356239552">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Wisdom (Panna)" ID="ID_570397342" CREATED="1729356239554" MODIFIED="1729356257201"/>
+</node>
 </node>
 <node TEXT="Three Characteristics" POSITION="right" ID="ID_688640389" CREATED="1729336197662" MODIFIED="1729336240078">
 <edge COLOR="#00ff00"/>
@@ -149,14 +178,13 @@
       The teaching of the Buddha has that four types of clinging must be let go of. The fourth one (clinging to doctrines of the self) is said to be unique to the teaching of the Buddha.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Sensuality" ID="ID_1304184598" CREATED="1729341909920" MODIFIED="1729341932820"/>
 <node TEXT="Views" ID="ID_795174529" CREATED="1729341933353" MODIFIED="1729341939177"/>
 <node TEXT="Habits &amp; rituals" ID="ID_1420368508" CREATED="1729341939499" MODIFIED="1729341946010"/>
 <node TEXT="Doctrines of the self" ID="ID_629858196" CREATED="1729341946510" MODIFIED="1729341965317"/>
 </node>
-<node TEXT="Knowledge / comprehension" ID="ID_841744779" CREATED="1729342168629" MODIFIED="1729342235597"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Knowledge / comprehension" ID="ID_841744779" CREATED="1729342168629" MODIFIED="1729342235597"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -166,8 +194,7 @@
       What does it mean for something to be known / understood / comprehended?
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Paticca Samuppada" ID="ID_1999741121" CREATED="1729342304435" MODIFIED="1729342575679"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
@@ -178,8 +205,7 @@
       Seeing experience in terms of dependent origination (paticca samuppada). In turn, this is knowledge w.r.t. the four noble truths.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Ending" ID="ID_426155063" CREATED="1729342398292" MODIFIED="1729342487566"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -191,13 +217,117 @@
       Seeing/understanding in a way that ends passion, aversion &amp; delusion for what is comprehended
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Dependent origination (Paticca Samuppada)" POSITION="right" ID="ID_1962756449" CREATED="1729342757167" MODIFIED="1729356384004">
+<edge COLOR="#7c007c"/>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Alternate beginning of the list:
+    </p>
+    <ul>
+      <li>
+        Ignorance (Avidja)
+      </li>
+      <li>
+        Fabrication (sankara)
+      </li>
+      <li>
+        Consciousness
+      </li>
+      <li>
+        ...
+      </li>
+    </ul>
+    <p>
+      Beginning of the list
+    </p>
+    <ul>
+      <li>
+        Name &amp; Form
+      </li>
+      <li>
+        Consciousness
+      </li>
+      <li>
+        Name &amp; form (cycle)
+      </li>
+      <li>
+        (6 sense bases)
+      </li>
+      <li>
+        Contact
+      </li>
+      <li>
+        Feeling
+      </li>
+      <li>
+        Craving (Here it splits in another branch, see below)
+      </li>
+      <li>
+        Clinging
+      </li>
+      <li>
+        Becoming
+      </li>
+      <li>
+        Birth
+      </li>
+      <li>
+        Aging &amp; death
+      </li>
+    </ul>
+    <p>
+      Branch from &quot;Craving&quot;:
+    </p>
+    <ul>
+      <li>
+        Seeking
+      </li>
+      <li>
+        Acquisition
+      </li>
+      <li>
+        Ascertainment
+      </li>
+      <li>
+        Desire &amp; passion
+      </li>
+      <li>
+        Attachment
+      </li>
+      <li>
+        Possessiveness
+      </li>
+      <li>
+        Stinginess
+      </li>
+      <li>
+        Defensiveness
+      </li>
+      <li>
+        Various evil &amp; unskillful phenomena
+
+        <ul>
+          <li>
+            Violence, conflict, quarrels, accusation, divisive speech, lies
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
 </html>
 </richcontent>
 </node>
-</node>
-</node>
-<node TEXT="Paticca Samuppada" POSITION="right" ID="ID_1962756449" CREATED="1729342757167" MODIFIED="1729342767546">
-<edge COLOR="#7c007c"/>
+<node TEXT="37 requisites" POSITION="right" ID="ID_1167558728" CREATED="1729354857234" MODIFIED="1729354883150">
+<edge COLOR="#007c7c"/>
 </node>
 </node>
 </map>
