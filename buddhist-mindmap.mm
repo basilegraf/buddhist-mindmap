@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Buddhism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1729341763577" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.001">
+<hook NAME="MapStyle" zoom="0.592">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -71,17 +71,18 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Four Noble Thruths" POSITION="right" ID="ID_683459160" CREATED="1729336173896" MODIFIED="1729336220067">
 <edge COLOR="#ff0000"/>
-<node TEXT="Suffering" ID="ID_620406646" CREATED="1729336266000" MODIFIED="1729338760497"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="Suffering" ID="ID_620406646" CREATED="1729336266000" MODIFIED="1729710459143"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      Suffering is defined as the clinging to any of the five aggregates.
+      Suffering is defined as the clinging to any of the five aggregates (khandhas = heaps).
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="" ID="ID_1121986458" CREATED="1729336958801" MODIFIED="1729336958801">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -107,8 +108,8 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Craving for sensuality" ID="ID_600786780" CREATED="1729338985071" MODIFIED="1729339035084"/>
-<node TEXT="Craving for becoming" ID="ID_255927018" CREATED="1729338995966" MODIFIED="1729339078781"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="Craving for sensuality (Kāma-taṇhā)" ID="ID_600786780" CREATED="1729338985071" MODIFIED="1729710160118"/>
+<node TEXT="Craving for becoming (Bhava-taṇhā)" ID="ID_255927018" CREATED="1729338995966" MODIFIED="1729710181172"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -120,7 +121,7 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="craving for non-becoming" ID="ID_21338972" CREATED="1729339006718" MODIFIED="1729339016469"/>
+<node TEXT="craving for non-becoming (Vibhava-taṇhā)" ID="ID_21338972" CREATED="1729339006718" MODIFIED="1729710189389"/>
 </node>
 <node TEXT="Existence of a Path, cessation of suffering" ID="ID_41577358" CREATED="1729336284929" MODIFIED="1729364194830"/>
 <node TEXT="Practice of the Path" ID="ID_1024635940" CREATED="1729336691971" MODIFIED="1729336704957"/>
