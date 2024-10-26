@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Buddhism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1729341763577" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.592">
+<hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -71,7 +71,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Four Noble Thruths" POSITION="right" ID="ID_683459160" CREATED="1729336173896" MODIFIED="1729336220067">
 <edge COLOR="#ff0000"/>
-<node TEXT="Suffering" ID="ID_620406646" CREATED="1729336266000" MODIFIED="1729710459143"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="Suffering (dukkha)" ID="ID_620406646" CREATED="1729336266000" MODIFIED="1729954935836"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -81,8 +81,7 @@
       Suffering is defined as the clinging to any of the five aggregates (khandhas = heaps).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="" ID="ID_1121986458" CREATED="1729336958801" MODIFIED="1729336958801">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -97,7 +96,7 @@
 <node TEXT="5 aggregates" ID="ID_307079737" CREATED="1729336958802" MODIFIED="1729336974543"/>
 </node>
 </node>
-<node TEXT="Cause of Suffering" ID="ID_912068313" CREATED="1729336273200" MODIFIED="1729341565269"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="Cause (of Suffering) (samudaya)" ID="ID_912068313" CREATED="1729336273200" MODIFIED="1729955061680"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -121,10 +120,10 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="craving for non-becoming (Vibhava-taṇhā)" ID="ID_21338972" CREATED="1729339006718" MODIFIED="1729710189389"/>
+<node TEXT="Craving for non-becoming (Vibhava-taṇhā)" ID="ID_21338972" CREATED="1729339006718" MODIFIED="1729955126839"/>
 </node>
-<node TEXT="Existence of a Path, cessation of suffering" ID="ID_41577358" CREATED="1729336284929" MODIFIED="1729364194830"/>
-<node TEXT="Practice of the Path" ID="ID_1024635940" CREATED="1729336691971" MODIFIED="1729336704957"/>
+<node TEXT="Cessation (of suffering) (nirodha)" ID="ID_41577358" CREATED="1729336284929" MODIFIED="1729955078689"/>
+<node TEXT="(Practice of the) Path (marga)" ID="ID_1024635940" CREATED="1729336691971" MODIFIED="1729955045656"/>
 </node>
 <node TEXT="Noble Eightfold Path" POSITION="right" ID="ID_1912295117" CREATED="1729336197518" MODIFIED="1729356670879">
 <edge COLOR="#0000ff"/>
@@ -222,7 +221,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Dependent origination (Paticca Samuppada)" POSITION="right" ID="ID_1962756449" CREATED="1729342757167" MODIFIED="1729422274526">
+<node TEXT="Dependent origination (Paticca Samuppada)" POSITION="right" ID="ID_1962756449" CREATED="1729342757167" MODIFIED="1729954604399">
 <edge COLOR="#7c007c"/>
 <richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -235,13 +234,13 @@
     </p>
     <ul>
       <li>
-        Ignorance (Avidja)
+        Ignorance (Avijjā)
       </li>
       <li>
-        Fabrication (sankara)
+        Fabrication (Saṅkhāra)
       </li>
       <li>
-        Consciousness
+        Consciousness (Viññāṇa)
       </li>
       <li>
         ...
@@ -252,37 +251,37 @@
     </p>
     <ul>
       <li>
-        Name &amp; Form
+        Name &amp; Form&nbsp;(Nāmarūpa)
       </li>
       <li>
-        Consciousness
+        Consciousness (Viññāṇa)
       </li>
       <li>
-        Name &amp; form (cycle)
+        Name &amp; form (Nāmarūpa) (cycle)
       </li>
       <li>
-        (6 sense bases)
+        (6 sense bases, (Saḷāyatana))
       </li>
       <li>
-        Contact
+        Contact (Phassa)
       </li>
       <li>
-        Feeling
+        Feeling (Vedanā)
       </li>
       <li>
-        Craving (Here it splits in another branch, see below)
+        Craving (Taṇhā) (Here it splits in another branch, see below)
       </li>
       <li>
-        Clinging
+        Clinging (Upādāna)
       </li>
       <li>
-        Becoming
+        Becoming (Bhava)
       </li>
       <li>
-        Birth
+        Birth (Jāti)
       </li>
       <li>
-        Aging &amp; death
+        Aging &amp; death (Jarāmaraṇa)
       </li>
     </ul>
     <p>
@@ -324,9 +323,10 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node TEXT="37 requisites" POSITION="right" ID="ID_1167558728" CREATED="1729354857234" MODIFIED="1729360555139">
+<node TEXT="37 requisites" POSITION="right" ID="ID_1167558728" CREATED="1729354857234" MODIFIED="1729955195173">
 <edge COLOR="#007c7c"/>
 <richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
@@ -337,11 +337,9 @@
     <p>
       The 37 requisite of enlightenment provide (another) comprehensive overview of the teachings.
     </p>
-    <p>
-      https://www.youtube.com/watch?v=zlCrpgpoBsM&amp;list=PLCXN1GlAupG3SlHsSX0oK1AWCJx5Q9PzB&amp;index=13
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="8 Eightfold path" ID="ID_1501096868" CREATED="1729359243443" MODIFIED="1729359259093">
 <node TEXT="Right view" ID="ID_1973865921" CREATED="1729359414509" MODIFIED="1729359419429"/>
 <node TEXT="Right intention" ID="ID_1524875262" CREATED="1729359419869" MODIFIED="1729359427634"/>
